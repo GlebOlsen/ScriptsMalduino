@@ -45,11 +45,11 @@ STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
 ENTER
 STRING $ReportEmail.From = 'EMAIL_FROM'
 ENTER
-STRING $ReportEmail.To.Add('EMAIL_TP')
+STRING $ReportEmail.To.Add('EMAIL_TO')
 ENTER
 STRING $ReportEmail.Subject = "SUBJECT_TEXT"
 ENTER
-STRING $ReportEmail.Body = "EMAIL_MESSAGE_TEXT"
+STRING $ReportEmail.Body = "MESSAGE_TEXT"
 ENTER
 STRING $ReportEmail.Attachments.Add("A.zip")
 ENTER
